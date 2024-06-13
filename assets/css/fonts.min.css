@@ -233,6 +233,9 @@
 .profile-icon:before {
     content: "\f007"; 
 }
+.briefcase-icon:before {
+    content: "\f0b1"; 
+}
 .fa-500px:before {
     content: "\f26e"
 }
