@@ -236,6 +236,18 @@
 .briefcase-icon:before {
     content: "\f0b1"; 
 }
+.wallate-icon:before {
+    content: "\f555"; 
+}
+.mony-icon:before {
+    content: "\f0d6"; 
+}
+.card-icon:before {
+    content: "\f09d"; 
+}
+.hand-icon:before {
+    content: "\f256"; 
+}
 .fa-500px:before {
     content: "\f26e"
 }
