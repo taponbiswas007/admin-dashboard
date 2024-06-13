@@ -248,6 +248,27 @@
 .hand-icon:before {
     content: "\f256"; 
 }
+.timetable-icon:before {
+    content: "\f133"; 
+}
+.homework-icon:before {
+    content: "\f044"; 
+}
+.eye-icon:before {
+    content: "\f06e"; 
+}
+.sms-icon:before {
+    content: "\f0e0"; 
+}
+.message-icon:before {
+    content: "\f27a"; 
+}
+.whatsapp-icon:before {
+    content: "\f232"; 
+}
+.video-icon:before {
+    content: "\f03d"; 
+}
 .fa-500px:before {
     content: "\f26e"
 }
