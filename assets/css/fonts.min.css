@@ -269,6 +269,18 @@
 .video-icon:before {
     content: "\f03d"; 
 }
+.question-icon:before {
+    content: "\f059"; 
+}
+.exams-icon:before {
+    content: "\f15c"; 
+}
+.awart-icon:before {
+    content: "\f559"; 
+}
+.files-icon:before {
+    content: "\f0c5"; 
+}
 .fa-500px:before {
     content: "\f26e"
 }
