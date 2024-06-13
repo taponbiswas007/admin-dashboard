@@ -9,6 +9,7 @@
 
   <!-- Fonts and icons -->
   <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
   <script>
     WebFont.load({
       google: {
@@ -29,7 +30,9 @@
     });
   </script>
 
+
   <!-- CSS Files -->
+  
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/plugins.min.css" />
   <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
@@ -65,6 +68,7 @@
       <div class="sidebar-wrapper scrollbar scrollbar-inner">
         <div class="sidebar-content">
           <ul class="nav nav-secondary">
+            <!-- dashboard start -->
             <li class="nav-item active">
               <a data-bs-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
                 <i class="fas fa-home"></i>
@@ -81,6 +85,171 @@
                 </ul>
               </div>
             </li>
+            <!-- dashboard end -->
+
+            <!-- general setting start -->
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#generalsetting" class="collapsed" aria-expanded="false">
+                <i class="icon-settings"></i>
+                <p>General Setting</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="generalsetting">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Institute profile</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Fee perticulars</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Fee structure</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Discount type</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Details for fee challan</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Rules and Regulations</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Marks Grading</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Account setting</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Log out</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- general setting end -->
+
+            <!-- classs start -->
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#classes" class="collapsed" aria-expanded="false">
+                <i class="fas class-icon"></i>
+                <p>Classes</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="classes">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">All Classes</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">New class</span>
+                    </a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </li>
+            <!-- classes end -->
+
+            <!-- subject start -->
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#subject" class="collapsed" aria-expanded="false">
+                <i class="fas subject-icon"></i>
+                <p>Subject</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="subject">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Classes with Subjects</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Assign Subjects</span>
+                    </a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </li>
+            <!-- subject end -->
+
+            <!-- student start -->
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#student" class="collapsed" aria-expanded="false">
+                <i class="fas profile-icon"></i>
+                <p>Student</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="student">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">All Student</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Add new</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Manage families</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Active/Inactive</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Admission letter</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Student ID Card</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Print basic list</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">Promote students</span>
+                    </a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </li>
+            <!-- student end -->
             <li class="nav-section">
               <span class="sidebar-mini-icon">
                 <i class="fa fa-ellipsis-h"></i>
